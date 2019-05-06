@@ -1,0 +1,31 @@
+.message-detail {
+  .message-detail-text {
+    width: 3rem;
+  }
+  .notification {
+    padding: 1rem;
+    background: #eee;
+    margin: 1rem 0;
+    .message-action {
+      margin-left: 0.5rem;
+      background: cadetblue;
+      color: white;
+      padding: 0.5rem;
+      cursor: pointer;
+    }
+  }
+  .message-table {
+    margin-top: 2rem;
+    .message-template {
+      font-weight: 500;
+      color: #555;
+      padding: 0.5rem 1rem;
+    }
+    .message-content {
+      padding: 0.5rem 1rem;
+      border: 1px solid #eee;
+      border-radius: 0.5rem;
+      width: 100%;
+    }
+  }
+}

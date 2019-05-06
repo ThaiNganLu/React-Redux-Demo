@@ -1,0 +1,22 @@
+.tool {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  .tool-item {
+    border: 1px solid green;
+    padding: 1rem;
+    display: grid;
+    background: green;
+    border-radius: 2rem;
+    margin: 0.2rem;
+    min-width: 6rem;
+    color: white;
+    .tool-content {
+      align-self: center;
+      justify-self: center;
+    }
+  }
+  .active {
+    background: white;
+    color: green;
+  }
+}

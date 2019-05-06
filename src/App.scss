@@ -1,0 +1,22 @@
+.app-message {
+  display: grid;
+  grid-template-columns: 0.4fr auto;
+  min-height: 20rem;
+  padding: 1rem;
+  .message-tool {
+    display: grid;
+    grid-template-rows: 5rem 32rem 5rem;
+    border: 1px solid #999;
+    .message-tab {
+      align-self: start;
+    }
+    .message-control {
+      align-self: end;
+    }
+  }
+  .message-detail {
+    padding: 2rem;
+    border: 1px solid #999;
+    border-left: 0;
+  }
+}

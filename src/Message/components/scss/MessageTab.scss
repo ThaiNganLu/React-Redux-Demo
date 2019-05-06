@@ -1,0 +1,25 @@
+.tab {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  .tab-item {
+    justify-self: center;
+    align-self: center;
+    width: 100%;
+    display: grid;
+    background: #2e7d32;
+    border: 1px solid #888;
+    color: white;
+    cursor: pointer;
+    .tab-content {
+      font-weight: 500;
+      justify-self: center;
+      align-self: center;
+      padding: 1rem;
+    }
+  }
+  .active {
+    border-bottom: 1px solid transparent;
+    background: white;
+    color: black;
+  }
+}

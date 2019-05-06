@@ -1,0 +1,18 @@
+.message-list {
+  padding: 0 1rem;
+  max-height: 24rem;
+  overflow: auto;
+  .message-item {
+    background: #eee;
+    display: grid;
+    margin: 0.5rem 0;
+    cursor: pointer;
+  }
+}
+.tab-all-height {
+  max-height: 30rem;
+}
+.error {
+  text-align: center;
+  color: #888;
+}
